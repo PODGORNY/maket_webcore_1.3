@@ -196,7 +196,7 @@ body {
     align-items: center;
 }
 
-.slide:hover {
+.slide:focus {
     display: flex;
     border: 2px solid #b8ffec;
     border-radius: 6px;
