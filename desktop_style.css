@@ -145,11 +145,11 @@ body {
 /*----------------------------------------scrollpanel*/
 .mainpost_nav-menu {
     padding-left: 32px;
-    padding-right: 3%;
+    padding-right: 32px;
     padding-top: 12px;
     padding-bottom: 12px;
     
-    
+    overflow-y: hidden;
 }
 
 .nav-menu_title {
@@ -221,6 +221,10 @@ body {
 
 .slide6 {
     margin-right: auto;
+}
+
+.notscrollvision::-webkit-scrollbar {
+    display: none;
 }
 
 /*-----------------------------paragraf + image*/
