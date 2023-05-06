@@ -531,7 +531,7 @@ body {
 .mainpost_paragraf {
     width: 40vw;
     height: 160px;
-    margin-top: 0;
+    margin-top: 16px;
     padding-left: 0;
     
     font-family: "TTLakes_medium", sans-serif;
@@ -555,6 +555,7 @@ body {
 .mainpost_image {
     width: 530px;
     height: 331px;
+    padding-top: 12px;
     margin-bottom: 32px;
     border-radius: 6px;
 }
